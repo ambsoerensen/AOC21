@@ -43,6 +43,26 @@
             ],
             "console": "integratedTerminal",
             "program": "${workspaceFolder}\\2\\2b.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "3a",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}\\3\\3a.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "3b",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}\\3\\3b.js"
         }
     ]
 }
