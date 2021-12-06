@@ -7,12 +7,42 @@
         {
             "type": "pwa-node",
             "request": "launch",
+            "name": "1a",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}\\1\\1a.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
             "name": "1b",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "console": "integratedTerminal",
             "program": "${workspaceFolder}\\1\\1b.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "2a",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}\\2\\2a.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "2b",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}\\2\\2b.js"
         }
     ]
 }
